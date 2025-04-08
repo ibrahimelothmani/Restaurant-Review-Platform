@@ -51,7 +51,7 @@ services:
 volumes:
   elasticsearch_data:
     driver: local
-  keycloak_data:
+  keycloak-data:
     driver: local
 
 networks:
