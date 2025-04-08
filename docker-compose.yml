@@ -40,7 +40,7 @@ services:
       - "9090:8080"
     environment:
        KEYCLOAK_ADMIN: admin
-       KEYCLOAK_PASSWORD: admin
+       KEYCLOAK_ADMIN_PASSWORD: admin
        KC_DB: h2-file
     volumes:
       - keycloak-data:/opt/keycloak/data
