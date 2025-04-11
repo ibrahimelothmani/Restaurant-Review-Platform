@@ -9,5 +9,5 @@ import java.util.Optional;
 public interface StorageService {
 
     String store(MultipartFile file, String fileName);
-    Optional<Resource> loadAsResource(String id);
+    Optional<Resource> loadAsResource(String fileName);
 }
