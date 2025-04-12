@@ -1,6 +1,6 @@
 package com.ibrahim.platform.exceptions;
 
-public class StorageException extends Exception{
+public class StorageException extends BaseException {
 
     public StorageException() {
     }
