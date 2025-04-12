@@ -23,7 +23,7 @@ import java.util.Optional;
 @Slf4j
 public class FileSystemStorageService implements StorageService {
 
-    @Value("${app.storage.location}")
+    @Value("${app.storage.location:uploads}")
     private String storageLocation;
 
     private Path rootLocation;
